@@ -1,0 +1,26 @@
+{
+    "name": "Prophaze",
+    "spots": 8,
+    "members": [
+        {
+            "name" : "Harsha",
+            "email" : "Harsha@gmail.com",
+            "status" : "active"
+        },
+        {
+            "name" : "Debi",
+            "email" : "Debi@gmail.com",
+            "status" : "active"
+        },
+        {
+            "name" : "Vysakh",
+            "email" : "Vysakh@gmail.com",
+            "status" : "active"
+        },
+        {
+            "name" : "Megha",
+            "email" : "Megha@gmail.com",
+            "status" : "active"
+        }
+    ]
+}
