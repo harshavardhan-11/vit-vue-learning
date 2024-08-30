@@ -1,12 +1,11 @@
 <script setup>
 import TeamMember from "@/components/Teams/TeamMember.vue";
-defineProps({
-  team: Object
-});
+import { useTeamStore } from "@/stores/TeamStore";
+let team = useTeamStore();
 </script>
 
 <template>
-  <table class="table-fixed border-spacing-2 border-separate">
+  <table class="table-fixed border-spacing-2 border-separate text-black">
     <thead>
       <th class="text-left px-6 py-2">Name</th>
       <th class="text-left px-6 py-2">Email</th>
