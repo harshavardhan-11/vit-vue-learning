@@ -16,7 +16,22 @@ export let useTeamStore = defineStore('team', {
 
     grow(spots) {
       this.spots = spots;
+    },
+
+    addMember(name, email) {
+      let member = {
+        name : name,
+        email : email,
+        status : "active"
+      }
+      console.log(member);
+      if (this.spotsRemaining > 0) {
+        this.members.push(member);
+      } else {
+        throw new Error("No spots remaining to add a new member.");
+      }
     }
+
   },
 
   getters: {
